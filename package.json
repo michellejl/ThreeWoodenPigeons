@@ -3,20 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "keystone": "https://github.com/keystonejs/keystone.git",
     "async": "^1.5.0",
-    "underscore": "^1.8.3",
-    "swig": "^1.4.1", 
+    "dotenv": "^1.1.0",
+    "flickrapi": "^0.4.2",
+    "keystone": "https://github.com/keystonejs/keystone.git",
     "node-sass": "^3.3.2",
-    "node-sass-middleware": "^0.9.7", 
-    "dotenv": "^1.1.0"
+    "node-sass-middleware": "^0.9.7",
+    "swig": "^1.4.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "gulp": "^3.7.0",
     "gulp-shell": "^0.5.0",
     "gulp-watch": "^4.3.5",
     "gulp-sass": "^2.0.4"
-    
   },
   "engines": {
     "node": ">=0.10.22",
