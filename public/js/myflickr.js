@@ -17,7 +17,7 @@ $.getJSON(url, function(data) {
 			'.staticflickr.com/' + serverID +
 			'/' + id + '_' + secret + '.jpg';
 
-		$('body').html('<img src="' + photo_url + '">');
+		// $('body').html('<img src="' + photo_url + '">');
 		console.log(photo_url);
 
 	}
