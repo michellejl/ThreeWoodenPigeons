@@ -19,7 +19,7 @@ keystone.init({
 	'brand': 'Three Wooden Pigeons',
 
 	'sass': 'public',
-'static': 'public',
+	'static': 'public',
 	'favicon': 'public/favicon.ico',
 	'views': 'templates/views',
 	'view engine': 'swig',
@@ -30,6 +30,10 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+	
+	'wysiwyg images': true,
+	'wysiwyg cloudinary images': true
+	
 
 });
 
