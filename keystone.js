@@ -34,8 +34,9 @@ keystone.init({
 	'wysiwyg images': true,
 	'wysiwyg cloudinary images': true
 	
-
 });
+
+
 
 // Load your project's Models
 
@@ -62,9 +63,9 @@ keystone.set('routes', require('./routes'));
 
 keystone.set('nav', {
 	posts: ['posts', 'post-categories'],
-	galleries: 'galleries',
+	galleries: ['galleries', 'FlickrGallery'],
 	enquiries: 'enquiries',
-	users: 'users',
+	users: 'users'
 });
 
 // Start Keystone to connect to your database and initialise the web server
