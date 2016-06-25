@@ -14,7 +14,8 @@ FlickrGallery.add({
 	name: { type: String, required: true },
 	publishedDate: { type: Date, default: Date.now },
 	heroImage: { type: Types.CloudinaryImage },
-	albumId: {type: String }
+	albumId: {type: String },
+	text: { type: Types.Html, wysiwyg: true, height: 150 },
 });
 
 FlickrGallery.register();
